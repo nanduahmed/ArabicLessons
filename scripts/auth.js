@@ -41,7 +41,7 @@ var LookUpTable =
 	
 	link: 
 	["html/lesson1/lesson1.html",
-	"html/lesson1/lesson1.html",
+	"html/lesson2/lesson2.html",
 	"html/lesson1/lesson1.html",
 	"html/lesson1/lesson1.html",
 	"html/lesson1/lesson1.html",]
