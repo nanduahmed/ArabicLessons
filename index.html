@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="style/styles.css">
+<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
 <META HTTP-EQUIV="Content-language" CONTENT="ar">
 </head>
@@ -12,14 +12,36 @@
 
 <body>
 <title>Arabic Lessons</title>
-<h1>Arabic Lessons<br></h1>
+<div id="Header" style="border:235px">
+<h1 class="breadcrumb">Arabic Lessons<br></h1>
+</div>
 
-<a href="#" onclick="selectLesson('lesson1');">Lesson 1: Tenses (فعل)<br></a>
-<a href="#" onclick="selectLesson('lesson2');">Lesson 2: Nouns (اسم)<br></a>
-<a href="#" onclick="selectLesson('lesson3');">Lesson 3: Harf<br></a>
-<a href="#" onclick="selectLesson('lesson4');">Lesson 4: Sentences<br></a>
-<a href="#" onclick="selectLesson('lesson5');">Lesson 5: To Be Done<br></a>
-<a href="#" onclick="selectLesson('lesson6');">Lesson 6: To Be Done<br></a>
+	<div id="LessonWrapper">
+		<h2 id="LessonH2">Lessons</h2>
+			<div id="LessonSubWrapper">
+			<h3><a href="#" onclick="selectLesson('lesson1');">I: Tenses<br></a></h3>
+			<p>This chapter explains the tenses and verbs in the Arabic Language</p>
+			</div>
+
+		<h3><a href="#" onclick="selectLesson('lesson2');">II: Verbs (فعل)<br></a></h3>
+		<p>This chapter explains the different nouns and their categories in the Arabic Language</p>
+		
+		
+		<h3><a href="#" onclick="selectLesson('lesson3');">III: Nouns (اسم)<br></a></h3>
+		<p>This chapter explains the different nouns and their categories in the Arabic Language</p>
+
+		<h3><a href="#" onclick="selectLesson('lesson4');">IV: Harf (حرف)<br></a></h3>
+		<p>This chapter explains the conjunctions of the Arabic Language</p>
+
+		<h3><a href="#" onclick="selectLesson('lesson5');">V: Sentences(جملأ)<br></a></h3>
+		<p>This chapter explains how to phrase the sentences</p>
+
+		<h3><a href="#" onclick="selectLesson('lesson6');">VI: Sarf<br></a></h3>
+		<p>This chapter explains different types of sarf applied to arabic words</p>
+		<p>To Be Done</p>
+	</div>
+
+
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 body
 {
-background-color:#B2F29B;
+background-color:#FBFBEF;
 }
 h1
 {
@@ -12,3 +12,13 @@ p
 font-family:"Times New Roman";
 font-size:20px;
 }
+div
+{
+/* background-color:#F5BCA9; */
+}
+#Header
+{
+background-color:#F5BCA9;
+}
+
+
