@@ -7640,6 +7640,7 @@ p {
   position: fixed;
 }
 
+/* The Chapter Main Header */
 #Header
 {
 	color: black;
@@ -7648,6 +7649,7 @@ p {
 	padding: 10px;
 }
 
+/* Div for Main Page Lesson Menu */
 #LessonWrapper
 {
 	width: 600px;
@@ -7660,6 +7662,7 @@ p {
 	
 }
 
+/* Lessons on index.html */
 #LessonH2
 {
 	padding:10px;
@@ -7668,6 +7671,14 @@ p {
 	margin-bottom:20px;
 	text-align:center;
 	background-color: #E2E599;
+}
+
+.definition
+{
+	color:gray;
+	margin:1px;
+	background-color:lightgray;
+	font-size:20px
 }
 
 .treeElement
@@ -7679,3 +7690,4 @@ p {
 	text-align:center;
 	font-size:18px;
 }
+
