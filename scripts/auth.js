@@ -32,6 +32,8 @@ function matchcode(code,lesson)
 		console.log("Code Failed");
 		return 0;	
 	}
+    
+    return -1;
 }
 
 
@@ -43,14 +45,16 @@ var LookUpTable =
 	"lesson3",
 	"lesson4",
 	"lesson5",
-	"lessonAsal"],
+	"lessonAsal",
+    "lessonAiraab"], 
 	hash : 
 	["222df7d8062fe3f0c2c2301cf093c33a9b37171b",
 	"2d0918528f99c17a7e2c8f7b2bb8f7a60464b110",
 	"de4209a9630ebdcea593579738da3ad65c1a2dd8",
 	"9951d48020a46ff38de2d34b1136845f23a5d76c",
 	"6b65d663a8c7b38cb59d1cf2ddfb8c9e3139f008",
-	"de4209a9630ebdcea593579738da3ad65c1a2dd8"],
+	"de4209a9630ebdcea593579738da3ad65c1a2dd8",
+    "9d4e1e23bd5b727046a9e3b4b7db57bd8d6ee684"], //pass
 	
 	link: 
 	["html/lesson1/lesson1.html",
@@ -58,7 +62,8 @@ var LookUpTable =
 	"html/lesson3/lesson3.html",
 	"html/lesson1/lesson1.html",
 	"html/lesson1/lesson1.html",
-	"./asal/mushtaq/mubalga.html"]
+	"./asal/mushtaq/mubalga.html",
+    "./airaab/airaab.html"]
 }
 
 function getHashForLesson(lesson)

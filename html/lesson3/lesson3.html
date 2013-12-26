@@ -3,6 +3,7 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="../../style/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../../style/nouns/nounsMain.css">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
 <META HTTP-EQUIV="Content-language" CONTENT="ar">
 </head>
@@ -11,53 +12,132 @@
 <script src="../../scripts/rollups/sha1.js"></script>
 
 <body>
-<title>Lesson 2: Nouns</title>
+    <title>Lesson 2: Nouns</title> 
+    <div id="Header">
+        <h1 class="breadcrumb" >Nouns (اسم)</h1>
+    </div>
+    
+    <table border="0">
+        <tr valign="top">
+            <!-- Asal Block Starts with Boot Strap -->
+            <td>
+                <div id="NounElement" class="list-group">
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">According to Root</h4>
+                        <h4 style="color:red" class="list-group-item-heading">اسم بلھاذ اسل</h4>
+                        <p class="list-group-item-text">This will have the details</p>
+                            <table id="InsideNounElement" class="table table-plain">
+                                <tr>
+                                    <td>
+                                        <ul class="media-list">
+                                        <li>Jamid (جامد)</li> 
+                                        <li>Mashdar (مسدر)</li>
+                                        <li>Mashtaq (مشتق)</li>
+                                            <ul>
+                                                <li>Fa-ail (فاعل)</li>
+                                                <li>Mafool (مفعول)</li>
+                                                <li>Zarf (ظرف)</li>
+                                                <li>Aala (آلاة)</li>
+                                                <li>Mubalga (مبالغ)</li>
+                                                <li>Tafdiel (تقغيل)</li>
+                                                <li>Mushabbah (مشبّة)</li>
+                                            </ul>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                    </a>
+                </div>
+            </td>
+    
+             <!-- Khaas Block Starts with Boot Strap -->
+            <td> 
+                <div id="NounElement" class="list-group">
+                    <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">According to Proper/Common</h4>
+                    <h4 style="color:red" class="list-group-item-heading">اسم بلھاذ خاس و آم</h4>
+                    <p class="list-group-item-text">This will have the details</p>
+                    <table id="InsideNounElement" class="table table-plain">
+                        <tr>
+                            <td>
+                                <ul class="media-list">
+                                <li>Maarefa (معرفة)</li>
+                                <li>Nakirah (نكره)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    </a>
+                </div>
+            </td>
+            
+            <!-- Jeans Block Starts with Boot Strap -->
+            <td>
+                <div id="NounElement" class="list-group">
+                    <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">According to Gender</h4>
+                    <h4 style="color:red" class="list-group-item-heading"> اسم بلھاذ دجےنس</h4>
+                    <p class="list-group-item-text">This will have the details</p>
+                        <table id="InsideNounElement" class="table table-plain">
+                        <tr>
+                            <td>
+                                <ul class="media-list">
+                                <li>Mudakkar (مزكر)</li>
+                                <li>Moannas (مؤنس)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    </a>
+                </div>
+            </td>
 
-<div id="Header">
-<h1 class="breadcrumb" >Nouns (اسم)</h1>
-</div>
+            <!-- Tadaat Block Starts with Boot Strap -->
+            <td>
+                    <div id="NounElement" class="list-group">
+                        <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">According to Quantity</h4>
+                        <h4 style="color:red" class="list-group-item-heading">اسم بلھاذ تادات</h4>
+                        <p class="list-group-item-text">This will have the details</p>
+                            <table id="InsideNounElement" class="table table-plain">
+                            <tr>
+                                <td>
+                                    <ul class="media-list">
+                                    <li>Wahid (واحد)</li>
+                                    <li>Tasniya (تسنيا)</li>
+                                    <li>Jamaa (جمع)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                        </a>
+                    </div>
+            </td>
+        </tr>
+        
+        <tr valign="top">
+            <!-- Airaab Block Starts with Boot Strap -->
+            <td>
+                <div id="NounElement" class="list-group" onclick="selectLesson('lessonAiraab');">
+                    <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">According to Airaab</h4>
+                    <h4 style="color:red" class="list-group-item-heading">اسم بلھاذ عیراب</h4>
+                    <p class="list-group-item-text">This will have the details</p>
+                        <table id="InsideNounElement" class="table table-plain">
+                        <tr>
+                            <td>
+                                <ul class="media-list">
+                                <li>Mabni (مبني)</li>
+                                <li>Maarab (معرب)</li>
+                                </ul>
+                            </td>
+                    </table>
+                    </a>
+                </div>
+            </td>
+        </tr>
+    </table>
 
-<ul onmouseover="resolveSrcMouseover(event);" onmouseout="resolveSrcMouseout(event);" onclick="selectLesson('lessonAsal');">
-			<li><div  class="ExpandCollapse"></div><div class="Folder"><a href=# ">According to Asal</a></div></li>
-			<ul id="ExpandCollapseFolder1">
-				<li>Jamid (جامد)</li> 
-				<li>Mashdar (مسدر)</li>
-				<li>Mashtaq (مشتق)</li>
-					<div id="Folder3" class="ExpandCollapse"></div><div class="Folder"></div></li>
-				<ul id="ExpandCollapseFolder3">
-					<li>Fa-ail (فاعل)</li>
-					<li>Mafool (مفعول)</li>
-					<li>Zarf (ظرف)</li>
-					<li>Aala (آلاة)</li>
-					<li>Mubalga (مبالغ)</li>
-					<li>Tafdiel (تقغيل)</li>
-					<li>Mushabbah (مشبّة)</li>
-				</ul>
-					
-			</ul>
-			<li><div id="Folder2" class="ExpandCollapse"></div><div class="Folder"><a href=# onclick="selectLesson('lesson');">According to Khaas/Aam</a></div></li>
-			<ul id="ExpandCollapseFolder2">
-				<li>Maarefa (معرفة)</li>
-				<li>Nakirah (نكره)</li>
-			</ul>
-			<li><div id="Folder3" class="ExpandCollapse"></div><div class="Folder"><a href=# onclick="selectLesson('lesson');">According to Jeans</a></div></li>
-				<ul id="ExpandCollapseFolder3">
-					<li>Mudakkar (مزكر)</li>
-					<li>Moannas (مؤنس)</li>
-				</ul>
-			<li><div id="Folder3" class="ExpandCollapse"></div><div class="Folder"><a href=# onclick="selectLesson('lesson');">According to Taadaat</a></div></li>
-				<ul id="ExpandCollapseFolder3">
-					<li>Wahid (واحد)</li>
-					<li>Tasniya (تسنيا)</li>
-					<li>Jamaa (جمع)</li>
-				</ul>
-			<li><div id="Folder3" class="ExpandCollapse"></div><div class="Folder"><a href=# onclick="selectLesson('lesson');"><a href=# onclick="selectLesson('lesson1');">According to Airaab (اسم بلِحاز علىراب)</a></a></div></li>
-				<ul id="ExpandCollapseFolder3">
-					<li>Mabni (مبني)</li>
-					<li>Maarab (معرب)</li>
-				</ul>
-		</ul>
-
-<a href="../../index.html">Back to Lessons Index<br></a>
+    <a href="../../index.html">Back to Lessons Index<br></a>
 </body>
 </html>
